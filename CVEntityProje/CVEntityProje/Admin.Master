@@ -23,9 +23,11 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="nav-link" href="#">Eğitim Hayatım</a>
+                        <a class="nav-link" href="Istatistik.aspx">İstatistikler</a>
                         <a class="nav-link" href="#">Deneyimlerim</a>
                         <a class="nav-link" href="Yeteneklerim.aspx">Yeteneklerim</a>
                         <a class="nav-link" href="Iletisim.aspx">İletişim</a>
+                        <a class="nav-link" href="Default.aspx">Siteye Git</a>
                     </div>
                 </div>
             </div>

@@ -9,8 +9,7 @@
                 <th>AD SOYAD</th>
                 <th>MAİL ADRESİ</th>
                 <th>KONU</th>
-                <th>SİL</th>
-                <th>GÜNCELLE</th>
+                <th>MESAJ DETAY</th>
             </tr>
         </thead>
         <tbody>
@@ -22,10 +21,7 @@
                         <td><%# Eval("MAIL")  %></td>
                         <td><%# Eval("KONU")  %></td>
                         <td>
-                            <asp:HyperLink ID="HyperLink1" runat="server" CssClass="btn btn-danger" NavigateUrl='<%# "YetenekSil.Aspx?ID=" + Eval("ID") %>'>Sil</asp:HyperLink>
-                        </td>
-                        <td>
-                            <asp:HyperLink ID="HyperLink2" runat="server" CssClass="btn btn-primary" NavigateUrl='<%# "YetenekGuncelle.Aspx?ID=" + Eval("ID") %>'>Güncelle</asp:HyperLink>
+                            <asp:HyperLink ID="HyperLink1" runat="server" CssClass="btn btn-warning" NavigateUrl='<%# "MesajDetay.Aspx?ID=" + Eval("ID") %>'>Mesaj Detay</asp:HyperLink>
                         </td>
                     </tr>
                 </ItemTemplate>
