@@ -75,7 +75,67 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="adminweb\blank-page.html" />
+    <Content Include="adminweb\charts.html" />
+    <Content Include="adminweb\compose.html" />
+    <Content Include="adminweb\css\animate.css" />
+    <Content Include="adminweb\css\bootstrap.css" />
+    <Content Include="adminweb\css\clndr.css" />
+    <Content Include="adminweb\css\custom.css" />
+    <Content Include="adminweb\css\font-awesome.css" />
+    <Content Include="adminweb\css\jqvmap.css" />
+    <Content Include="adminweb\css\style.css" />
+    <Content Include="adminweb\fonts\fontawesome-webfont.svg" />
+    <Content Include="adminweb\forms.html" />
+    <Content Include="adminweb\general.html" />
+    <Content Include="adminweb\grids.html" />
+    <Content Include="adminweb\images\1.png" />
+    <Content Include="adminweb\images\2.png" />
+    <Content Include="adminweb\images\3.png" />
+    <Content Include="adminweb\images\a.png" />
+    <Content Include="adminweb\images\i1.png" />
+    <Content Include="adminweb\images\i2.png" />
+    <Content Include="adminweb\images\i3.png" />
+    <Content Include="adminweb\images\i4.png" />
+    <Content Include="adminweb\images\img1.png" />
+    <Content Include="adminweb\images\lock.png" />
+    <Content Include="adminweb\images\tick.png" />
+    <Content Include="adminweb\images\user.png" />
+    <Content Include="adminweb\inbox.html" />
+    <Content Include="adminweb\index.html" />
+    <Content Include="adminweb\js\bootstrap.js" />
+    <Content Include="adminweb\js\Chart.js" />
+    <Content Include="adminweb\js\classie.js" />
+    <Content Include="adminweb\js\clndr.js" />
+    <Content Include="adminweb\js\custom.js" />
+    <Content Include="adminweb\js\jquery-1.11.1.min.js" />
+    <Content Include="adminweb\js\jquery.circlechart.js" />
+    <Content Include="adminweb\js\jquery.nicescroll.js" />
+    <Content Include="adminweb\js\jquery.vmap.js" />
+    <Content Include="adminweb\js\jquery.vmap.sampledata.js" />
+    <Content Include="adminweb\js\jquery.vmap.world.js" />
+    <Content Include="adminweb\js\metisMenu.min.js" />
+    <Content Include="adminweb\js\modernizr.custom.js" />
+    <Content Include="adminweb\js\moment-2.2.1.js" />
+    <Content Include="adminweb\js\scripts.js" />
+    <Content Include="adminweb\js\site.js" />
+    <Content Include="adminweb\js\skycons.js" />
+    <Content Include="adminweb\js\underscore-min.js" />
+    <Content Include="adminweb\js\validator.min.js" />
+    <Content Include="adminweb\js\wow.min.js" />
+    <Content Include="adminweb\login.html" />
+    <Content Include="adminweb\media.html" />
+    <Content Include="adminweb\signup.html" />
+    <Content Include="adminweb\tables.html" />
+    <Content Include="adminweb\typography.html" />
+    <Content Include="adminweb\validation.html" />
+    <Content Include="adminweb\w3layouts-License.txt" />
+    <Content Include="adminweb\widgets.html" />
     <Content Include="Default.aspx" />
+    <Content Include="Iletisim.aspx" />
+    <Content Include="YeniYetenek.aspx" />
+    <Content Include="YetenekGuncelle.aspx" />
+    <Content Include="Yeteneklerim.aspx" />
     <Content Include="Model1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Model1.Context.cs</LastGenOutput>
@@ -87,35 +147,61 @@
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
     <Content Include="Web.config" />
-    <Content Include="web\css\easy-responsive-tabs.css" />
-    <Content Include="web\css\font-awesome.css" />
-    <Content Include="web\css\lightcase.css" />
+    <Content Include="web\css\bootstrap.css" />
+    <Content Include="web\css\fontawesome-all.min.css" />
     <Content Include="web\css\style.css" />
     <Content Include="web\fonts\fontawesome-webfont.svg" />
-    <Content Include="web\images\1.jpg" />
-    <Content Include="web\images\1.png" />
-    <Content Include="web\images\2.jpg" />
-    <Content Include="web\images\3.jpg" />
-    <Content Include="web\images\4.jpg" />
-    <Content Include="web\images\5.jpg" />
-    <Content Include="web\images\6.jpg" />
-    <Content Include="web\images\7.jpg" />
-    <Content Include="web\images\8.jpg" />
-    <Content Include="web\images\banner.jpg" />
+    <Content Include="web\images\about.jpg" />
+    <Content Include="web\images\banner1.jpg" />
+    <Content Include="web\images\g1.jpg" />
+    <Content Include="web\images\g2.jpg" />
+    <Content Include="web\images\g3.jpg" />
     <Content Include="web\index.html" />
-    <Content Include="web\js\easyResponsiveTabs.js" />
-    <Content Include="web\js\jquery-2.2.3.min.js" />
-    <Content Include="web\js\jquery.events.touch.js" />
-    <Content Include="web\js\lightcase.js" />
     <Content Include="web\w3layouts-License.txt" />
+    <Content Include="YetenekSil.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Iletisim.aspx.cs">
+      <DependentUpon>Iletisim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Iletisim.aspx.designer.cs">
+      <DependentUpon>Iletisim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YeniYetenek.aspx.cs">
+      <DependentUpon>YeniYetenek.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YeniYetenek.aspx.designer.cs">
+      <DependentUpon>YeniYetenek.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YetenekGuncelle.aspx.cs">
+      <DependentUpon>YetenekGuncelle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YetenekGuncelle.aspx.designer.cs">
+      <DependentUpon>YetenekGuncelle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Yeteneklerim.aspx.cs">
+      <DependentUpon>Yeteneklerim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Yeteneklerim.aspx.designer.cs">
+      <DependentUpon>Yeteneklerim.aspx</DependentUpon>
     </Compile>
     <Compile Include="Model1.Context.cs">
       <AutoGen>True</AutoGen>
@@ -148,6 +234,13 @@
     <Compile Include="TBLYETENEKLER.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="YetenekSil.aspx.cs">
+      <DependentUpon>YetenekSil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YetenekSil.aspx.designer.cs">
+      <DependentUpon>YetenekSil.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EntityDeploy Include="Model1.edmx">
@@ -157,6 +250,13 @@
     <Content Include="Model1.edmx.diagram">
       <DependentUpon>Model1.edmx</DependentUpon>
     </Content>
+    <Content Include="adminweb\fonts\fontawesome-webfont.eot" />
+    <Content Include="adminweb\fonts\fontawesome-webfont.ttf" />
+    <Content Include="adminweb\fonts\fontawesome-webfont.woff" />
+    <Content Include="adminweb\fonts\FontAwesome.otf" />
+    <Content Include="adminweb\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="adminweb\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Admin.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -164,11 +264,11 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
-    <Content Include="web\fonts\fontawesome-webfont.eot" />
-    <Content Include="web\fonts\fontawesome-webfont.ttf" />
     <Content Include="web\fonts\fontawesome-webfont.woff" />
     <Content Include="web\fonts\fontawesome-webfont.woff2" />
     <Content Include="web\fonts\FontAwesome.otf" />
+    <Content Include="web\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="web\fonts\glyphicons-halflings-regular.woff2" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
