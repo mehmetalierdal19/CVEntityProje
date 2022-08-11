@@ -17,6 +17,7 @@ namespace CVEntityProje
             double sonuc = Convert.ToDouble(db.TBLYETENEKLER.Average(x => x.DERECE).ToString());
             sonuc = Math.Round(sonuc, 2);
             Label3.Text = sonuc.ToString();
+            Label4.Text = db.TBLYETENEKLER.Max(x => x.DERECE).ToString();
         }
     }
 }

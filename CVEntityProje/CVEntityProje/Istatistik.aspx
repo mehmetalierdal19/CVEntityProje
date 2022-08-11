@@ -79,7 +79,7 @@
             <div class="icon-text">
                 <h3>
                     <asp:Label ID="Label4" runat="server" Text="Label"></asp:Label></h3>
-                <p>Emanet Kitaplar</p>
+                <p>En Yüksek Derece</p>
             </div>
             <div class="clearfix"></div>
         </div>
@@ -123,7 +123,7 @@
                     <div class="skill2" style="width: 76%"></div>
                 </div>
             </div>
-            <p>Kütüphane Yönetim Sistemi projemizin admin paneli kısmındasınız. Kütüphane Sistemi size iyi okumalar diler.</p>
+            <p>Entity Cv projemizin admin paneli kısmındasınız. Keyifli kodlamalar dileriz.</p>
         </div>
         <div class="clearfix"></div>
     </div>
